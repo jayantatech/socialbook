@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ec847bf49e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <input class="nav-input" type="text" placeholder="search">
+                <img src="images/search.png" alt="search">
+            </div>
+            <div class="profile-pic">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="contaner">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="img-links">
+                <a href="#"><img src="images/news.png" alt="news">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="Friends">Friends</a>
+                <a href="#"><img src="images/group.png" alt="Group">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="marketplace">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="Watch">Watch</a>
+                <a href="#" id="see-buttone">See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your Shortcut</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="Web Developers">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Desgine Coures</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Website Exparts</a>
+            </div>
+        </div>
+
+        <!-- main midel contaner  -->
+
+        <div class="main-contaner">
+
+            <div class="story-glary">
+                <div class="story story-first">
+                    <img id="story-box" src="images/upload.png" alt="upload">
+                    <p>post Story</p>
+                </div>
+
+                <!-- profile story boxes -->
+
+                <div class="story story1">
+                    <img src="images/member-4.png" alt="upload">
+                    <p>post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-5.png" alt="upload">
+                    <p>post Story</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-6.png" alt="upload">
+                    <p>post Story</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-7.png" alt="upload">
+                    <p>post Story</p>
+                </div>
+            </div>
+
+            <!-- write-post-container -->
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="propife-img">
+                    <div class="user-account-name">
+                        <p>Jayanta Biswas</p>
+                        <small>Public <i class="fa-solid fa-chevron-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-contaner">
+                    <textarea  rows="3" placeholder="Whats In Your Mind jayanta?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- post section  -->
+            <div class="post-contaner">
+                <div class="user-profile">
+                    <a href=""><i class="fa-regular fa-ellipsis-stroke-vertical"></i></a>
+                    <img src="images/profile-pic.png" alt="propife-img">
+                    <div class="user-account-name">
+                        <p>Jayanta Biswas</p>
+                        <span id="post-date"> 27-Jun-23 7.30PM</span>
+                    </div>
+                </div>
+
+                <div class="post-main-deta">
+                    <p>Lorem ipsum dolor, <span class="bold-post-text">@sitamet</span> consectetur adipisicing elit. Illo facere nisi quisquam dolore atque! Sint, non modi earum cumque maiores <a href="#">#Jayanta</a> <a href="#">#repudiandae-vitae</a> <a href="#">#veritatis</a> </p>
+
+                    <img src="images/feed-image-1.png" class="main-post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icone">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">18</div>
+                        <div><img src="images/share.png">10</div>
+                        
+                    </div>
+                    <div class="post-profile-icone">
+                        <img src="images/profile-pic.png" id="right-post-img"> <i class="fa-solid fa-chevron-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd post section  -->
+            <div class="post-contaner">
+                <div class="user-profile">
+                    <a href=""><i class="fa-regular fa-ellipsis-stroke-vertical"></i></a>
+                    <img src="images/member-2.png" alt="propife-img">
+                    <div class="user-account-name">
+                        <p>Suvo Halder</p>
+                        <span id="post-date"> 27-Jun-23 7.30PM</span>
+                    </div>
+                </div>
+
+                <div class="post-main-deta">
+                    <p>Lorem ipsum dolor, <span class="bold-post-text">@sitamet</span> consectetur adipisicing elit. Illo facere nisi quisquam dolore atque! Sint, non modi earum cumque maiores <a href="#">#Jayanta</a> <a href="#">#repudiandae-vitae</a> <a href="#">#veritatis</a> </p>
+
+                    <img src="images/feed-image-2.png" class="main-post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icone">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">18</div>
+                        <div><img src="images/share.png">10</div>
+                        
+                    </div>
+                    <div class="post-profile-icone">
+                        <img src="images/profile-pic.png" id="right-post-img"> <i class="fa-solid fa-chevron-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd post section  -->
+            <div class="post-contaner">
+                <div class="user-profile">
+                    <a href=""><i class="fa-regular fa-ellipsis-stroke-vertical"></i></a>
+                    <img src="images/member-4.png" alt="propife-img">
+                    <div class="user-account-name">
+                        <p>John das</p>
+                        <span id="post-date"> 27-Jun-23 7.30PM</span>
+                    </div>
+                </div>
+
+                <div class="post-main-deta">
+                    <p>Lorem ipsum dolor, <span class="bold-post-text">@sitamet</span> consectetur adipisicing elit. Illo facere nisi quisquam dolore atque! Sint, non modi earum cumque maiores <a href="#">#Jayanta</a> <a href="#">#repudiandae-vitae</a> <a href="#">#veritatis</a> </p>
+
+                    <img src="images/feed-image-3.png" class="main-post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icone">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">18</div>
+                        <div><img src="images/share.png">10</div>
+                        
+                    </div>
+                    <div class="post-profile-icone">
+                        <img src="images/profile-pic.png" id="right-post-img"> <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-load">
+                <button class="load-mor-button">Load More</button>
+            </div>
+
+            <div class="footer">
+                <p>COPYRIGHT © 2023 Jayanta Biswas, ALL RIGHTS RESERVED. </p>
+            </div>
+            
+        </div>
+    
+
+        
+        <!-- right-sidebar -->
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <p>See All</p>
+            </div>
+
+            <!-- events section -->
+
+            <div class="events">
+                <div class="left-events">
+                    <h3>18 </h3>
+                    <span>March</span>
+
+                </div>
+                <div class="right-events">
+                    <h4>Social Media</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-events">
+                    <h3>24 </h3>
+                    <span>June</span>
+
+                </div>
+                <div class="right-events">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#"> More Info</a>
+                </div>
+
+
+                 <!-- ADS section  -->
+
+
+            </div>
+            <div class="ads-section">
+
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <p>Close</p>
+                </div>
+                <img id="ads-img" src="images/advertisement.png" alt="ads">
+            </div>
+
+            <div class="conversation">
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <p>Hide Chat</p>
+                </div>
+                <div class="coversation-list">
+                    <div class="coversation-img">
+                        <img src="images/member-1.png" alt="img-profile">
+                        <div></div>
+                    </div>
+
+                    <div class="coversation-name">
+                        <p>Puja mondol </p>
+                    </div>
+                </div>
+                <div class="coversation-list">
+                    <div class="coversation-img">
+                        <img src="images/member-2.png" alt="img-profile">
+                        <div></div>
+                    </div>
+
+                    <div class="coversation-name">
+                        <p>Jayanta Biswas </p>
+                    </div>
+                </div>
+                <div class="coversation-list">
+                    <div class="coversation-img">
+                        <img src="images/member-3.png" alt="img-profile">
+                        <div></div>
+                    </div>
+
+                    <div class="coversation-name">
+                        <p>prianka das </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                
+</body>
+
+</html>
